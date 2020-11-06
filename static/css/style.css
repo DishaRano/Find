@@ -1,0 +1,38 @@
+h2{
+color: green;
+text-align: center;
+}
+h1{
+color: green;
+}
+
+*{
+margin:0px;
+padding: 0px;
+font-family: sans-serif;
+}
+body{
+background: #FF0000;
+}
+.main{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+
+input{
+border: 3px solid #32e17c;
+height: 40px;
+width: 300px;
+border-radius: 30px;
+padding: 0px 10px;
+}
+
+.btn{
+border: 3px solid #32e17c;
+height: 40px;
+width: 40px;
+border-radius: 30px;
+padding: 0px 10px;
+}

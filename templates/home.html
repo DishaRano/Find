@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8">
+    <title>JustGo</title>
+</head>
+<body>
+
+<div class="main">
+    <h1>Finder</h1>
+<form action="{% url 'video' %}" method="get" enctype="multipart/form-data">
+    <input name="q" type="text" placeholder="Search...">
+        <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+</form>
+</div>
+</body>
+</html>
